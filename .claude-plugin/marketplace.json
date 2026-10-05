@@ -1,0 +1,34 @@
+{
+  "name": "ai-tools",
+  "owner": {
+    "name": "Chris Balmer"
+  },
+  "description": "Agent skills (open SKILL.md format) for agent-driven development — language, plan, execute layers plus general-purpose helpers, packaged as a Claude Code plugin.",
+  "version": "0.4.0",
+  "plugins": [
+    {
+      "name": "ai-tools",
+      "source": {
+        "source": "github",
+        "repo": "chrisbalmer/ai-tools"
+      },
+      "description": "Agent skills for agent-driven development — language layer (CONTEXT.md, ADRs), plan layer (app-design, to-prd, to-issues, triage), execute layer (ship-issue, milestone-builder, review, tdd, diagnose, milestone-e2e-test), and general helpers (obsidian-note, session-note, op-secrets, har). See WORKFLOW.md for the end-to-end manual.",
+      "version": "0.4.0",
+      "author": {
+        "name": "Chris Balmer",
+        "url": "https://github.com/chrisbalmer"
+      },
+      "homepage": "https://github.com/chrisbalmer/ai-tools",
+      "repository": "https://github.com/chrisbalmer/ai-tools",
+      "license": "MIT",
+      "keywords": [
+        "agent-driven-development",
+        "gitea",
+        "obsidian",
+        "domain-driven-design",
+        "tdd",
+        "skills"
+      ]
+    }
+  ]
+}

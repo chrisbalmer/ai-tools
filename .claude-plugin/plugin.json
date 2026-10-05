@@ -1,0 +1,45 @@
+{
+  "name": "ai-tools",
+  "description": "Agent skills for agent-driven development \u2014 language layer (CONTEXT.md, ADRs), plan layer (app-design, to-prd, to-issues, triage), execute layer (ship-issue, milestone-builder, review, tdd, diagnose, milestone-e2e-test), and general helpers (obsidian-note, session-note, op-secrets, har). See WORKFLOW.md for the end-to-end manual.",
+  "version": "0.4.0",
+  "author": {
+    "name": "Chris Balmer",
+    "url": "https://github.com/chrisbalmer"
+  },
+  "homepage": "https://github.com/chrisbalmer/ai-tools",
+  "repository": "https://github.com/chrisbalmer/ai-tools",
+  "license": "MIT",
+  "keywords": [
+    "agent-driven-development",
+    "gitea",
+    "obsidian",
+    "domain-driven-design",
+    "tdd",
+    "skills"
+  ],
+  "skills": [
+    "./skills/language/grill-with-docs",
+    "./skills/language/improve-codebase-architecture",
+    "./skills/plan/app-design",
+    "./skills/plan/to-prd",
+    "./skills/plan/to-issues",
+    "./skills/plan/triage",
+    "./skills/execute/ship-issue",
+    "./skills/execute/milestone-builder",
+    "./skills/execute/milestone-e2e-test",
+    "./skills/execute/review",
+    "./skills/execute/tdd",
+    "./skills/execute/diagnose",
+    "./skills/general/obsidian-note",
+    "./skills/general/session-note",
+    "./skills/general/op-secrets",
+    "./skills/general/har"
+  ],
+  "agents": [
+    "./agents/commit.md",
+    "./agents/ci-check.md",
+    "./agents/test-run.md",
+    "./agents/tracker-read.md",
+    "./agents/review-prep.md"
+  ]
+}
